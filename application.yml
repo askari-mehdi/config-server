@@ -1,0 +1,6 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKA_URI:http://localhost:9090/eureka}
+    fetch-registry: 'true'
+    register-with-eureka: 'true'
